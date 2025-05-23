@@ -1,11 +1,13 @@
-package Review;
+package reviews.reviews2;
 
-public class Review20 {
+public class Review17 {
     public static void main(String[] args){
         int num = 5;
         int sum = 0;
-        for(int i = 1; i<=num; i++){
+        int i = 2;
+        while (i<=num){
             sum += i;
+            i += 2;
         }
         System.out.println("結果："+ sum);
     }
